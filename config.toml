@@ -2,14 +2,14 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "JGabrielFreitas"
 theme = "strata"
-disqusShortname = "spf13"
+disqusShortname = "jgabrielfreitas"
 paginate = 10
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+	name = "João Freitas"
+	description = "a static site with my photos"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -21,76 +21,71 @@ paginate = 10
 
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.jpg"
+		avatar = "profile_photo.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "**João Freitas**,<br> photography and developer.<br>hero of Hyrule."
+		bg = "bg.jpg"
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		dribbble = ""
-		facebook = ""
-		googleplus = ""
-		flickr = ""
-		linkedin = ""
+		twitter = "jgabrielfreitas"
+		github = "jgabrielfreitas"
 
 		copyright = [
-			"&copy; John Doe",
-			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
+			"&copy; JGabrielFreitas",
+			"more: [instagram](https://www.instagram.com/jgabrielfreitas/)"
 		]
 
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "about me"
+		content = "a nerd who like to take photos and write a lot of code.<br>I also saved Hyrule a few times."
 
 
 	[params.portfolio]
 		hide  = false
-		title = "Recent Work"
+		title = "recent photos"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/beach.JPG"
+			thumb = "thumbs/beach.JPG"
+			title = "praia da reserva"
+			description = "CABO FRIO • RJ"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/garrafas.jpg"
+			thumb = "thumbs/garrafas.jpg"
+			title = "garrafas"
+			description = "ANTIGA FÁBRICA DE BHERING • RJ"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/pearl_jam.JPG"
+			thumb = "thumbs/pearl_jam.JPG"
+			title = "pearl jam"
+			description = "MARACANÃ • RJ"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/paqueta.jpg"
+			thumb = "thumbs/paqueta.jpg"
+			title = "bicicletas"
+			description = "PAQUETÁ • RJ"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/red_hot.jpg"
+			thumb = "thumbs/red_hot.jpg"
+			title = "cover"
+			description = "CALABOUÇO HEAVY METAL BAR • RJ"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/biblioteca.jpg"
+			thumb = "thumbs/biblioteca.jpg"
+			title = "livros"
+			description = "LIVRARIA DA TRAVESSA • RJ"
 
 
 	[params.contact]
-		hide  = false
+		hide  = true
 		title = "Get In Touch"
 		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
