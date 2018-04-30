@@ -83,6 +83,12 @@ paginate = 10
 			title = "livros"
 			description = "LIVRARIA DA TRAVESSA • RJ"
 
+		[[params.portfolio.gallery]]
+			image = "fulls/neon.jpg"
+			thumb = "thumbs/neon.jpg"
+			title = "neon"
+			description = "HAMBURGUERIA DA ALFÂNDEGA • RJ"
+
 
 	[params.contact]
 		hide  = true
