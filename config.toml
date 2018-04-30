@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://jgabrielfreitas.github.io/"
 languageCode = "en-us"
 title = "JGabrielFreitas"
 theme = "strata"
@@ -119,7 +119,7 @@ paginate = 10
 
 
 # Menu links that appear on the left sidebar
-#[[menu.main]]
-#	name = "Home"
-#	url  = "/"
-#	weight = 0
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 10
